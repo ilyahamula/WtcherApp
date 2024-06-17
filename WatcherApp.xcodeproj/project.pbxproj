@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA104FB62B17E5B70048782E /* WatcherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA104FB52B17E5B70048782E /* WatcherAppApp.swift */; };
+		FA104FBA2B17E5BA0048782E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA104FB92B17E5BA0048782E /* Assets.xcassets */; };
+		FA104FBD2B17E5BA0048782E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA104FBC2B17E5BA0048782E /* Preview Assets.xcassets */; };
+		FA104FE02B17E5E80048782E /* MainWatcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA104FDF2B17E5E80048782E /* MainWatcherView.swift */; };
+		FA1C46CC2B38594400A53920 /* BluetoothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46CB2B38594400A53920 /* BluetoothViewModel.swift */; };
+		FA1C46D82B3A272E00A53920 /* sRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46D72B3A272E00A53920 /* sRGB.swift */; };
+		FA1C46DA2B3A27A800A53920 /* sTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46D92B3A27A800A53920 /* sTime.swift */; };
+		FA1C46DC2B3AEB3100A53920 /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46DB2B3AEB3100A53920 /* LoadingSpinner.swift */; };
+		FA1C46DE2B3AF1C800A53920 /* CommandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46DD2B3AF1C800A53920 /* CommandViewModel.swift */; };
+		FA1C46E02B3B53EC00A53920 /* TimeGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46DF2B3B53EC00A53920 /* TimeGroupView.swift */; };
+		FA1C46E42B3B574B00A53920 /* LightGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46E32B3B574B00A53920 /* LightGroupView.swift */; };
+		FA1C46E62B3B577F00A53920 /* SettingsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C46E52B3B577F00A53920 /* SettingsGroupView.swift */; };
+		FA1E580A2B17F63B00FB5BC0 /* CircleWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E58092B17F63B00FB5BC0 /* CircleWatchView.swift */; };
+		FA1E580C2B17F66900FB5BC0 /* CircleWatchControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E580B2B17F66900FB5BC0 /* CircleWatchControlView.swift */; };
+		FA66B6D12B4C11870091CD35 /* STLLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66B6D02B4C11870091CD35 /* STLLoader.swift */; };
+		FA66B6D32B4C15010091CD35 /* CircleWatch 3D models in Resources */ = {isa = PBXBuildFile; fileRef = FA66B6D22B4C15010091CD35 /* CircleWatch 3D models */; };
+		FA66B6D52B4DF2390091CD35 /* CircleWatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66B6D42B4DF2390091CD35 /* CircleWatchModel.swift */; };
+		FA66B6D72B5AE5120091CD35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66B6D62B5AE5120091CD35 /* Constants.swift */; };
+		FA66B6D92B5B0AD30091CD35 /* ColorPickerDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66B6D82B5B0AD30091CD35 /* ColorPickerDiv.swift */; };
+		FA918FC72B4B2B1C00653639 /* CircleWatch3DViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA918FC62B4B2B1C00653639 /* CircleWatch3DViewModel.swift */; };
+		FA918FCB2B4B31BD00653639 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA918FCA2B4B31BD00653639 /* DataLoader.swift */; };
+		FAA04BAF2B7920B800492B57 /* RoundSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA04BAE2B7920B800492B57 /* RoundSwitcher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA104FC32B17E5BB0048782E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA104FAA2B17E5B70048782E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA104FB12B17E5B70048782E;
+			remoteInfo = WatcherApp;
+		};
+		FA104FCD2B17E5BB0048782E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA104FAA2B17E5B70048782E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA104FB12B17E5B70048782E;
+			remoteInfo = WatcherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA104FB22B17E5B70048782E /* WatcherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatcherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA104FB52B17E5B70048782E /* WatcherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatcherAppApp.swift; sourceTree = "<group>"; };
+		FA104FB92B17E5BA0048782E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA104FBC2B17E5BA0048782E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA104FC22B17E5BB0048782E /* WatcherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatcherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA104FCC2B17E5BB0048782E /* WatcherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatcherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA104FDF2B17E5E80048782E /* MainWatcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWatcherView.swift; sourceTree = "<group>"; };
+		FA1C46CB2B38594400A53920 /* BluetoothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothViewModel.swift; sourceTree = "<group>"; };
+		FA1C46D72B3A272E00A53920 /* sRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sRGB.swift; sourceTree = "<group>"; };
+		FA1C46D92B3A27A800A53920 /* sTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sTime.swift; sourceTree = "<group>"; };
+		FA1C46DB2B3AEB3100A53920 /* LoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinner.swift; sourceTree = "<group>"; };
+		FA1C46DD2B3AF1C800A53920 /* CommandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewModel.swift; sourceTree = "<group>"; };
+		FA1C46DF2B3B53EC00A53920 /* TimeGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeGroupView.swift; sourceTree = "<group>"; };
+		FA1C46E32B3B574B00A53920 /* LightGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightGroupView.swift; sourceTree = "<group>"; };
+		FA1C46E52B3B577F00A53920 /* SettingsGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsGroupView.swift; sourceTree = "<group>"; };
+		FA1E58092B17F63B00FB5BC0 /* CircleWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWatchView.swift; sourceTree = "<group>"; };
+		FA1E580B2B17F66900FB5BC0 /* CircleWatchControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWatchControlView.swift; sourceTree = "<group>"; };
+		FA66B6D02B4C11870091CD35 /* STLLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLLoader.swift; sourceTree = "<group>"; };
+		FA66B6D22B4C15010091CD35 /* CircleWatch 3D models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "CircleWatch 3D models"; sourceTree = "<group>"; };
+		FA66B6D42B4DF2390091CD35 /* CircleWatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWatchModel.swift; sourceTree = "<group>"; };
+		FA66B6D62B5AE5120091CD35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA66B6D82B5B0AD30091CD35 /* ColorPickerDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerDiv.swift; sourceTree = "<group>"; };
+		FA918FC62B4B2B1C00653639 /* CircleWatch3DViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWatch3DViewModel.swift; sourceTree = "<group>"; };
+		FA918FCA2B4B31BD00653639 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		FAA04BAE2B7920B800492B57 /* RoundSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSwitcher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA104FAF2B17E5B70048782E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA104FBF2B17E5BB0048782E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA104FC92B17E5BB0048782E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA104FA92B17E5B70048782E = {
+			isa = PBXGroup;
+			children = (
+				FA104FB42B17E5B70048782E /* WatcherApp */,
+				FA104FB32B17E5B70048782E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA104FB32B17E5B70048782E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA104FB22B17E5B70048782E /* WatcherApp.app */,
+				FA104FC22B17E5BB0048782E /* WatcherAppTests.xctest */,
+				FA104FCC2B17E5BB0048782E /* WatcherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA104FB42B17E5B70048782E /* WatcherApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA918FC92B4B31B000653639 /* Utils */,
+				FA1C46D62B3A26F600A53920 /* Models */,
+				FA1C46CA2B38590900A53920 /* ViewModels */,
+				FA1E58082B17E9E500FB5BC0 /* Views */,
+				FA104FB52B17E5B70048782E /* WatcherAppApp.swift */,
+				FA104FB92B17E5BA0048782E /* Assets.xcassets */,
+				FA104FBB2B17E5BA0048782E /* Preview Content */,
+			);
+			path = WatcherApp;
+			sourceTree = "<group>";
+		};
+		FA104FBB2B17E5BA0048782E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA104FBC2B17E5BA0048782E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA1C46CA2B38590900A53920 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA66B6D22B4C15010091CD35 /* CircleWatch 3D models */,
+				FA1C46CB2B38594400A53920 /* BluetoothViewModel.swift */,
+				FA1C46DD2B3AF1C800A53920 /* CommandViewModel.swift */,
+				FA918FC62B4B2B1C00653639 /* CircleWatch3DViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA1C46D62B3A26F600A53920 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C46D72B3A272E00A53920 /* sRGB.swift */,
+				FA1C46D92B3A27A800A53920 /* sTime.swift */,
+				FA66B6D42B4DF2390091CD35 /* CircleWatchModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA1C46E12B3B56DA00A53920 /* Controls Group */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C46DF2B3B53EC00A53920 /* TimeGroupView.swift */,
+				FA1C46E32B3B574B00A53920 /* LightGroupView.swift */,
+				FA1C46E52B3B577F00A53920 /* SettingsGroupView.swift */,
+			);
+			path = "Controls Group";
+			sourceTree = "<group>";
+		};
+		FA1C46E22B3B572E00A53920 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C46DB2B3AEB3100A53920 /* LoadingSpinner.swift */,
+				FA66B6D82B5B0AD30091CD35 /* ColorPickerDiv.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA1E58082B17E9E500FB5BC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C46E22B3B572E00A53920 /* Utils */,
+				FA1C46E12B3B56DA00A53920 /* Controls Group */,
+				FA104FDF2B17E5E80048782E /* MainWatcherView.swift */,
+				FA1E58092B17F63B00FB5BC0 /* CircleWatchView.swift */,
+				FA1E580B2B17F66900FB5BC0 /* CircleWatchControlView.swift */,
+				FAA04BAE2B7920B800492B57 /* RoundSwitcher.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA918FC92B4B31B000653639 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA66B6D02B4C11870091CD35 /* STLLoader.swift */,
+				FA918FCA2B4B31BD00653639 /* DataLoader.swift */,
+				FA66B6D62B5AE5120091CD35 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA104FB12B17E5B70048782E /* WatcherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA104FD62B17E5BB0048782E /* Build configuration list for PBXNativeTarget "WatcherApp" */;
+			buildPhases = (
+				FA104FAE2B17E5B70048782E /* Sources */,
+				FA104FAF2B17E5B70048782E /* Frameworks */,
+				FA104FB02B17E5B70048782E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatcherApp;
+			productName = WatcherApp;
+			productReference = FA104FB22B17E5B70048782E /* WatcherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA104FC12B17E5BB0048782E /* WatcherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA104FD92B17E5BB0048782E /* Build configuration list for PBXNativeTarget "WatcherAppTests" */;
+			buildPhases = (
+				FA104FBE2B17E5BB0048782E /* Sources */,
+				FA104FBF2B17E5BB0048782E /* Frameworks */,
+				FA104FC02B17E5BB0048782E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA104FC42B17E5BB0048782E /* PBXTargetDependency */,
+			);
+			name = WatcherAppTests;
+			productName = WatcherAppTests;
+			productReference = FA104FC22B17E5BB0048782E /* WatcherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA104FCB2B17E5BB0048782E /* WatcherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA104FDC2B17E5BB0048782E /* Build configuration list for PBXNativeTarget "WatcherAppUITests" */;
+			buildPhases = (
+				FA104FC82B17E5BB0048782E /* Sources */,
+				FA104FC92B17E5BB0048782E /* Frameworks */,
+				FA104FCA2B17E5BB0048782E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA104FCE2B17E5BB0048782E /* PBXTargetDependency */,
+			);
+			name = WatcherAppUITests;
+			productName = WatcherAppUITests;
+			productReference = FA104FCC2B17E5BB0048782E /* WatcherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA104FAA2B17E5B70048782E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FA104FB12B17E5B70048782E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FA104FC12B17E5BB0048782E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FA104FB12B17E5B70048782E;
+					};
+					FA104FCB2B17E5BB0048782E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FA104FB12B17E5B70048782E;
+					};
+				};
+			};
+			buildConfigurationList = FA104FAD2B17E5B70048782E /* Build configuration list for PBXProject "WatcherApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA104FA92B17E5B70048782E;
+			productRefGroup = FA104FB32B17E5B70048782E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA104FB12B17E5B70048782E /* WatcherApp */,
+				FA104FC12B17E5BB0048782E /* WatcherAppTests */,
+				FA104FCB2B17E5BB0048782E /* WatcherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA104FB02B17E5B70048782E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA66B6D32B4C15010091CD35 /* CircleWatch 3D models in Resources */,
+				FA104FBD2B17E5BA0048782E /* Preview Assets.xcassets in Resources */,
+				FA104FBA2B17E5BA0048782E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA104FC02B17E5BB0048782E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA104FCA2B17E5BB0048782E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA104FAE2B17E5B70048782E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA04BAF2B7920B800492B57 /* RoundSwitcher.swift in Sources */,
+				FA1E580C2B17F66900FB5BC0 /* CircleWatchControlView.swift in Sources */,
+				FA66B6D72B5AE5120091CD35 /* Constants.swift in Sources */,
+				FA918FC72B4B2B1C00653639 /* CircleWatch3DViewModel.swift in Sources */,
+				FA66B6D92B5B0AD30091CD35 /* ColorPickerDiv.swift in Sources */,
+				FA104FB62B17E5B70048782E /* WatcherAppApp.swift in Sources */,
+				FA1E580A2B17F63B00FB5BC0 /* CircleWatchView.swift in Sources */,
+				FA1C46E62B3B577F00A53920 /* SettingsGroupView.swift in Sources */,
+				FA66B6D12B4C11870091CD35 /* STLLoader.swift in Sources */,
+				FA1C46E02B3B53EC00A53920 /* TimeGroupView.swift in Sources */,
+				FA1C46CC2B38594400A53920 /* BluetoothViewModel.swift in Sources */,
+				FA1C46DC2B3AEB3100A53920 /* LoadingSpinner.swift in Sources */,
+				FA104FE02B17E5E80048782E /* MainWatcherView.swift in Sources */,
+				FA918FCB2B4B31BD00653639 /* DataLoader.swift in Sources */,
+				FA66B6D52B4DF2390091CD35 /* CircleWatchModel.swift in Sources */,
+				FA1C46DA2B3A27A800A53920 /* sTime.swift in Sources */,
+				FA1C46E42B3B574B00A53920 /* LightGroupView.swift in Sources */,
+				FA1C46D82B3A272E00A53920 /* sRGB.swift in Sources */,
+				FA1C46DE2B3AF1C800A53920 /* CommandViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA104FBE2B17E5BB0048782E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA104FC82B17E5BB0048782E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA104FC42B17E5BB0048782E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA104FB12B17E5B70048782E /* WatcherApp */;
+			targetProxy = FA104FC32B17E5BB0048782E /* PBXContainerItemProxy */;
+		};
+		FA104FCE2B17E5BB0048782E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA104FB12B17E5B70048782E /* WatcherApp */;
+			targetProxy = FA104FCD2B17E5BB0048782E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA104FD42B17E5BB0048782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA104FD52B17E5BB0048782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA104FD72B17E5BB0048782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatcherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = P2F2P53RSN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow Bluetooth, for this App is using Bluetooth to scan for nearby devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoCompany.WatcherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA104FD82B17E5BB0048782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatcherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = P2F2P53RSN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow Bluetooth, for this App is using Bluetooth to scan for nearby devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoCompany.WatcherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA104FDA2B17E5BB0048782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2F2P53RSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoCompany.WatcherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatcherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatcherApp";
+			};
+			name = Debug;
+		};
+		FA104FDB2B17E5BB0048782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2F2P53RSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoCompany.WatcherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatcherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatcherApp";
+			};
+			name = Release;
+		};
+		FA104FDD2B17E5BB0048782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2F2P53RSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoCompany.WatcherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatcherApp;
+			};
+			name = Debug;
+		};
+		FA104FDE2B17E5BB0048782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2F2P53RSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoCompany.WatcherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatcherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA104FAD2B17E5B70048782E /* Build configuration list for PBXProject "WatcherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA104FD42B17E5BB0048782E /* Debug */,
+				FA104FD52B17E5BB0048782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA104FD62B17E5BB0048782E /* Build configuration list for PBXNativeTarget "WatcherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA104FD72B17E5BB0048782E /* Debug */,
+				FA104FD82B17E5BB0048782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA104FD92B17E5BB0048782E /* Build configuration list for PBXNativeTarget "WatcherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA104FDA2B17E5BB0048782E /* Debug */,
+				FA104FDB2B17E5BB0048782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA104FDC2B17E5BB0048782E /* Build configuration list for PBXNativeTarget "WatcherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA104FDD2B17E5BB0048782E /* Debug */,
+				FA104FDE2B17E5BB0048782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA104FAA2B17E5B70048782E /* Project object */;
+}
